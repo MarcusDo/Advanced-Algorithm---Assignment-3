@@ -3,6 +3,6 @@
 #include <vector>
 
 int deterministicSelectKthSmallest (const std::vector<int>& arr, int k);
-double determinsticSelectMedian (const std::vector<int>& arr );
+double deterministicSelectMedian (const std::vector<int>& arr );
 
 #endif
