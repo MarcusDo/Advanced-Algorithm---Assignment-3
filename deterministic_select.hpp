@@ -2,7 +2,7 @@
 #define DETERMINISTIC_SELECT_HPP_
 #include <vector>
 
-int getKthSmallest (const std::vector<int>& arr, int k);
-double getMedian (const std::vector<int>& arr );
+int deterministicSelectKthSmallest (const std::vector<int>& arr, int k);
+double determinsticSelectMedian (const std::vector<int>& arr );
 
 #endif
