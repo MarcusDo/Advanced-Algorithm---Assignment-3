@@ -6,12 +6,12 @@
 #include <stdexcept> 
 
 // ---Public Functions--- 
-int deterministicSelectKthSmallest (const std::vector<int>& arr, int k ){
+int deterministicFindKthSmallest (const std::vector<int>& arr, int k ){
     std::vector<int> v = arr;
     deterministicSelect(v, 0, v.size()-1, k);
 }
 
-double deterministicSelectMedian (const std::vector<int> & arr){
+double deterministicFindMedian (const std::vector<int> & arr){
     std::vector<int> v = arr;
     int size = arr.size();
     if (size == 1){
